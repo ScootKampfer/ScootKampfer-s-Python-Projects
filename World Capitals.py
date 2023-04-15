@@ -104,22 +104,6 @@ if playing == 'yes':
 
 # ------6
 
- question_no += 1
-    ques = input(f'\n{question_no}. What is the capital of Russia? ').lower()
-    
-    if ques == 'moscow':
-
-        score +=1
-        print('correct! you got 1 point')
-        
-    else:
-
-        print('Incorrect!')
-        print(f'current answer is --> moscow')
-
-
-# ------7
-
 else:
 
     print('So sad to see you go!')
