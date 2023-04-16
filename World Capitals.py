@@ -104,6 +104,70 @@ if playing == 'yes':
 
 # ------6
 
+    question_no += 1
+    ques = input(f'\n{question_no}. What is the capital of Austria? ').lower()
+    
+    if ques == 'vienna':
+
+        score +=1
+        print('correct! you got 1 point')
+        
+    else:
+
+        print('Incorrect!')
+        print(f'current answer is --> vienna')
+
+
+# ------7
+
+    question_no += 1
+    ques = input(f'\n{question_no}. What is the capital of France? ').lower()
+    
+    if ques == 'paris':
+
+        score +=1
+        print('correct! you got 1 point')
+        
+    else:
+
+        print('Incorrect!')
+        print(f'current answer is --> paris')
+
+
+# ------8
+
+    question_no += 1
+    ques = input(f'\n{question_no}. What is the capital of Switzerland? ').lower()
+    
+    if ques == 'bern':
+
+        score +=1
+        print('correct! you got 1 point')
+        
+    else:
+
+        print('Incorrect!')
+        print(f'current answer is --> bern')
+
+
+# ------9
+
+    question_no += 1
+    ques = input(f'\n{question_no}. What is the capital of Japan? ').lower()
+    
+    if ques == 'tokyo':
+
+        score +=1
+        print('correct! you got 1 point')
+        
+    else:
+
+        print('Incorrect!')
+        print(f'current answer is --> tokyo')
+
+
+# ------10
+
 else:
 
     print('So sad to see you go!')
