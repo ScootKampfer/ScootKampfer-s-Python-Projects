@@ -15,7 +15,7 @@ while True:
     
     while GPIO.input(13) == False:
     
-    GPIO.output(20, LED_off)
+        GPIO.output(20, LED_off)
     GPIO.output(21, LED_on)
     time.sleep(1)
     GPIO.output(21, LED_off)

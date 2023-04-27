@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Create your date of birth: <input id="date-birth" name="date-birth" type="date" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="Under 18"><input id="minor" type="radio" name="age-group" class="inline" /> Under 18 </label>
+        <label for="Over 18"><input id="major" type="radio" name="age-group" class="inline" /> Over 18 </label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="referrer">What is your favourite food?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Pizza</option>
+            <option value="2">Sushi</option>
+            <option value="3">Tacos</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio"> Hobbies:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Video games, football, etc..."></textarea>
+        </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
