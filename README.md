@@ -1,8 +1,7 @@
 # GabN-Kamper-Python-Journey
-A trivia game and much more
 
-I'm trying to learn python and seeing what I can do with it.
+I'm trying to learn Python by practicing on multiple projects. 
 
-I did a World Capitals game and I'm exploring other options
+I did a World Capitals game, a Mad Libs game and I'm exploring other projects to do.
 
-If you have any ideas, please send them to me!
+If you have any ideas, please send them to me on Discord!

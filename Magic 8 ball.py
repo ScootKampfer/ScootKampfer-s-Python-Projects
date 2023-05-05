@@ -7,9 +7,9 @@ random_item = random.choice(questions)
 while True:
     
     random_item = random.choice(questions)
-    print('Ask your question out loud')
-    time.sleep(7)
+    question = input('Ask your question out loud')
+    time.sleep(1)
     print(random_item)
-    time.sleep(4)
+    time.sleep(5)
     print('Ready to ask another question?')
-    time.sleep(4)
+    time.sleep(5)
