@@ -11,7 +11,7 @@ while True:
     if DieType == "6" or "d6":
         Answer = random.randint(1, 6)
 
-    if DieType == "8" or "d8"
+    if DieType == "8" or "d8":
         Answer = random.randint(1, 8)
 
     if DieType == "10" or "d10":
